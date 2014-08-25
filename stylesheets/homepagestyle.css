@@ -1,0 +1,54 @@
+/*
+
+	===============
+	
+	Grid
+	
+	===============
+	
+*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+/* font- lighter than usual, size 16px, line height 22px, Open Sans or other fonts */
+body {
+	color: #888;
+	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+}
+
+section {
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	}
+	
+
+/* This uses clearing and floating; try using inline-blocks or float + clearfix */
+#tutorinfo {
+	float: left;
+	width: 50%;
+	}
+
+#studentinfo {
+	float: right;
+	width: 50%;
+	}
+
+footer {
+	clear: both;
+	width: 50%;
+	}

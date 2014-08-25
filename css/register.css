@@ -1,0 +1,31 @@
+/*
+-----------
+Grid
+-----------
+*/
+
+body {
+    background: #bdc3c7;
+}
+
+.tutors, .students {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+/*
+-------------
+Custom Styles
+-------------
+*/
+
+.tutors {
+    float: left;
+    color: white;
+}
+
+.students {
+    float: right;
+    color: #2c3e50;
+}

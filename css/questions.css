@@ -1,0 +1,178 @@
+/*
+----------------
+Grid
+----------------
+*/
+body {
+    background: #bdc3c7;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .q-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.sidebar {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    margin: 10px auto;
+}
+
+main {
+    float: right;
+    width: 66%;
+    padding: 10px;
+}
+
+/*
+---------------
+Custom Elements
+---------------
+*/
+/* making box label similar to the Flat-UI button class */
+.box-label {
+  border: none; /* All color */
+    
+    /* text details */
+  font-size: 15px;  
+  font-weight: normal;
+  line-height: 1.4;
+    
+    /* curves to be changed based on where box is */
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+    
+    /*space for content */
+  padding: 10px 15px;
+    
+  -webkit-font-smoothing: subpixel-antialiased; /*crisp text*/
+    
+  color: #ffffff;
+  background-color: #bdc3c7;
+}
+
+/* Making a box similar to the Flat-UI form control class */
+.bordered-box {
+  border: 2px solid #bdc3c7;   /*solid line border*/
+  color: #34495e;  /* color of text */
+    
+    /* font details */
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.467;
+    
+    /*spacing for content */
+  padding: 8px 12px;
+    
+    /* box shaping and style */
+  -webkit-appearance: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+
+
+/*
+-------------------
+Sidebar
+-------------------
+*/
+
+.sidebar form {
+    /* spacing */
+    margin: 10px auto;
+}
+
+.online-tutors {
+    margin: 10px auto;
+}
+
+aside {
+    margin-top: 1em;
+}
+/* 
+-----------------
+Posts
+-----------------
+*/
+
+.enter-content {
+    padding: 10px;
+}
+
+.post-title {
+    width: 45%;
+    float: left;
+    margin: 1em 2.5%;
+}
+
+.post-unit {
+    width: 45%;
+    float: right;
+    margin: 1em 2.5%;
+}
+
+.post-content {
+    margin: 1em 2.5%;
+}
+
+.new-post {
+    background: white;
+    border-radius: 4px;
+}
+
+.example-post {
+    margin: 10px auto;
+    padding: 1em;
+    background: white;
+    border-radius: 4px;
+}
+
+.nameplate {
+    border-bottom: solid;
+    border-bottom-color: #bdc3c7;
+}
+
+.nameplate img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.nameplate .img,
+.nameplate h6,
+.nameplate small {
+    display: inline-block;
+}
+
+.nameplate h6 {
+    margin: auto 10px;
+}
+
+/* problem: want the unit name to be center aligned to the right */
+.nameplate small {
+    float: right;
+}
+
+.answer {
+    float: right;
+}
+
+
+
+
+
+
+

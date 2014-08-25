@@ -1,0 +1,288 @@
+/*
+	==================
+	Custom Styles
+	==================
+*/
+/* font- lighter than usual, size 16px, line height 22px, Open Sans or other fonts */
+body {
+	background: #293f50;
+	color: #888;
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+h1, h2, h3, h4 {
+	color: #648880;
+}
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+}
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+strong {
+	font-weight: 400px;
+}
+cite, em {
+	font-style: italic;
+}
+
+
+/*
+	==============
+	Links
+	==============
+*/
+a:hover {
+	color: #a9b2b9;
+}
+.teaser a:hover h3 {
+	color: #a9b2b9;
+}
+a {
+	color: #648880;
+	text-decoration: none;
+}
+p a {
+	border-bottom: 1px solid #dfe2e5;
+}
+
+/*
+	===============
+	Grid
+	===============	
+*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/*two column reusable layout*/
+.grid,
+.container {
+	margin: 0 auto;   /*centers the page*/
+	width: 960px;     /* good width */
+}
+.container {
+	padding-left: 30px;   /* gives elements on page space so they don't sit on edge */
+	padding-right: 30px;
+}
+.grid,
+.col-1-2,
+.col-2-2 {
+	padding-left: 15px;   /* extra padding for grid/columns */
+	padding-right: 15px;
+}
+.col-1-2,
+.col-2-2 {
+	display: inline-block;
+	vertical-align: top;     /* Question: why? */
+}
+.col-1-2 {
+	width: 50.0%;      /* equal size columns */
+}
+.col-2-2 {
+	width: 50.0%;
+}
+.background_img {
+	background-image: url(http://users.wpi.edu/~akumar2/images/phimg.jpeg);
+	background-size: 99.7%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-clip: padding-box;
+}
+
+/*
+
+	==================
+	Clearfix
+	==================
+*/
+/* before is before the content, vice versa with after */
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+	=================
+	Typography
+	=================
+*/
+
+/* Specific to this style */
+h1, h3, h4, h5, p {
+	margin-bottom: 22px;
+}
+
+/*
+	=========================
+	Primary Header
+	=========================
+*/
+.primary-header a,
+.primary-footer a {
+	color: #fff;
+}
+.primary-header a:hover,
+.primary-header a:hover {
+	color: #648880;
+}
+.logo {
+	border-top: 4px solid #648880;  /* little green thing */
+	float: left;
+	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	line-height: 44px;
+	padding: 40px 0 22px 0;
+	text-transform: uppercase;
+}
+.tagline {
+	margin: 66px 0 22px 0;
+	text-align: right;
+}
+.primary-nav {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+
+
+/*
+	=========================
+	Primary footer
+	=========================
+*/
+.primary-footer {
+	color: #648880;
+	font-size: 14px;
+	padding-bottom: 44px;  /* gives a little space */
+	padding-top: 44px;
+}
+.primary-footer small {
+	float: left;
+	font-weight: 400;
+}
+
+
+
+/*
+	===============
+	Buttons
+	===============
+*/
+
+/* for all buttons on site. general style */
+.btn {
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: .5px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+/* specific to one button */
+.btn-alt {
+	border: 1px solid #fff;
+	padding: 10px 30px;
+}
+.btn-alt:hover {
+	background: #fff;
+	color: #293f50;
+}
+
+/* 
+	================
+	Home
+	================
+*/
+
+.hero {
+	color: #fff;
+	line-height: 44px;
+	padding: 22px 80px 66px 80px;
+	text-align: center;
+}
+.hero h2 {
+	font-size: 36px;
+}
+.hero p {
+	font-size: 24px;
+	font-weight: 100;
+}
+
+
+/*
+	=========================
+	Navigation
+	=========================
+*/
+.nav {
+	text-align: right;
+}
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-alig: top;
+}
+.nav li:last-child {
+	margin-right: 0;
+}
+
+/*
+	====================
+	Row
+	====================
+*/
+
+.row {
+	background: #fff;
+	min-width: 960px;
+	padding: 66px 0 44px 0;
+}
+.row,
+.row-alt {
+	min-width: 960px;
+}
+.row {
+	background: #fff;
+	padding: 66px 0 44px 0;
+}
+.row-alt {
+	background: #cbe2cl;
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
+	padding: 44px 0 22px 0;
+}
